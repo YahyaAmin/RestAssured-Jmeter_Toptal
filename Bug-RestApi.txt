@@ -1,0 +1,13 @@
+Bug: Rest API
+
+Bug Title : The system shouldn't allow user to create a dataset with a wrong key
+
+
+Steps to reproduce:
+Use post route to create a dataset 
+Enter wrong key i.e. "name123" instead of "name"
+Hit the API request 
+
+Expected: The system should return an error message 
+
+Actual: The system is accepting request payload with invalid key
